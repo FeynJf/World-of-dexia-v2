@@ -1,0 +1,18 @@
+{
+  "name": "world-of-daxia",
+  "version": "2.0.0",
+  "private": true,
+  "description": "World of Daxia - native Android build via Capacitor",
+  "scripts": {
+    "sync": "cap sync android",
+    "open": "cap open android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.0.0",
+    "@capacitor/core": "^7.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^3.0.5",
+    "@capacitor/cli": "^7.0.0"
+  }
+}
